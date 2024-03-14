@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://postgres:WMBTBKeorXeCsRLgsYsGZjIJsSPAbDkb@viaduct.proxy.rlwy.net:32870/railway"
 }
 
 model UserInquiry {
@@ -39,3 +39,5 @@ enum packageType {
   GENERAL
   PERSONAL
 }
+
+//test
