@@ -37,6 +37,7 @@ export async function POST(req: Request, res: Response) {
         return new Response(JSON.stringify({ status: 201, message: 'Thank you!' }));
 
     } catch (error) {
+        console.log(error)
         //@ts-ignore
         return new Response(JSON.stringify({ status: 500, message: error }));
 
