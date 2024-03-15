@@ -1,4 +1,4 @@
-export const runtime = 'edge'
+export const runtime = 'nodejs';
 import { PrismaClient } from '@prisma/client'
 const client = new PrismaClient()
 
