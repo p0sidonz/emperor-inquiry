@@ -52,12 +52,11 @@ export default function Home() {
 
 
   return (
-    <main className="flex flex-col items-center justify-between p-24">
-      <div className="lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-200 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+    <main className=" flex flex-col items-center justify-between p-4 lg:p-24">
+      <div className="lg:flex w-full">
+        <p className="container mx-auto w-full flex justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-200 dark:bg-zinc-800/30 dark:from-inherit lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Welcome to EmperorFitness
         </p>
-
       </div>
       <form onSubmit={handleSubmit} className="bg-white text-black shadow-md rounded px-8 pt-6 pb-8 mb-4 container mx-auto mt-20">
         <div className="mb-4">
